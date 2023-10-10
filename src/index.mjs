@@ -74,3 +74,12 @@
 
 // const sayHello = (name = "ゲスト") => console.log(`こんにちは${name}さん！`);
 // sayHello("じゃけぇ");
+
+/**
+ * スプレッド構文...
+ */
+
+//配列の展開
+const arr1 = [1, 2];
+console.log(arr1);
+console.log(...arr1);
