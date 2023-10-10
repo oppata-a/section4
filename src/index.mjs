@@ -72,9 +72,5 @@
  * デフォルト変数、引数など
  */
 
-const sayHello = (name = "ゲスト") => console.log(`こんにちは${name}さん！`);
-sayHello("じゃけぇ");
-
-
-
-
+// const sayHello = (name = "ゲスト") => console.log(`こんにちは${name}さん！`);
+// sayHello("じゃけぇ");
