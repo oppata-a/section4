@@ -68,7 +68,12 @@
 // const message3 = `私の名前は${name}です。年齢は${age}です。`;
 // console.log(message3);
 
+/**
+ * デフォルト変数、引数など
+ */
 
+const sayHello = (name = "ゲスト") => console.log(`こんにちは${name}さん！`);
+sayHello("じゃけぇ");
 
 
 
