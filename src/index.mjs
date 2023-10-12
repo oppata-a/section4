@@ -6,11 +6,11 @@
 let val2 = "let変数";
 console.log(val2);
 
-//letは上書き可能(再作成不可)
+//letは上書き可能(再宣言不可)
 val2 = "let変数を上書き";
 console.log(val2);
 
-//const変数（上書き・再作成不可）
+//const変数（上書き・再宣言不可）
 const val3 = "const変数";
 console.log(val3);
 
@@ -42,7 +42,6 @@ console.log(message2);
  * アロー関数
  */
 
-//アロー関数
 const func2 = (str) => {
   return str;
 };
@@ -81,8 +80,8 @@ sayHello("じゃけぇデフォルト");
 
 //配列の展開
 const arr1 = [1, 2];
-// console.log(arr1);
-// console.log(...arr1);
+console.log(arr1);
+console.log(...arr1);
 
 const sumFunc = (num1, num2) => console.log(num1 + num2);
 sumFunc(arr1[0], arr1[1]);
